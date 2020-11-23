@@ -1,0 +1,52 @@
+html {
+    font-size:10px;
+    background-image: url('https://external-preview.redd.it/ExL-Vn03ehHTJj2eiIGFwzz3CBGx1TQzlYvNWSIiP44.jpg?auto=webp&s=483315452f8f0cb9c30260e91cf9f6a010a61df5');
+    background-size:cover;
+}
+
+body,html {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.keys{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content:center;
+    min-height:100vh;
+
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin:1rem;
+    font-size:1.5rem;
+    padding: 1rem 0.5rem;
+    width:10rem;
+    text-align:center;
+    color:white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem black;
+    transition: all 0.07s ease;
+}
+
+kbd {
+    display:block;
+    font-size: 4rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+    font-size:1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
